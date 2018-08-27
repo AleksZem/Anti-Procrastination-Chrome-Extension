@@ -1,0 +1,11 @@
+{
+	"name": "Anti-Procrastination Extension",
+	"version": "1.0",
+	"description": "Chrome extension used to help set daily time limits for specific sites.",
+	"manifest_version": 1,
+	"permissions": ["storage"],
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	}
+}
